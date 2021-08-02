@@ -65,8 +65,6 @@ int main()
 {
     int row, col, ma[2][2], mat[2][2];
 
-    cout << "PRACTICAL - 3  Strassen's Martix Multiplication " << endl;
-    cout << "performed by Shubham Ashish C_33" << endl;
 
     cout << "Enter the elements of first matrix: ";
     for (int i = 0; i < 2; i++)
@@ -92,3 +90,6 @@ int main()
 
 
 ```
+## Output
+![Code_RlwsD9LaWN](https://user-images.githubusercontent.com/78084828/127889150-27ebf142-2add-4845-a324-b7883088081b.png)
+
