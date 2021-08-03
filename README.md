@@ -1,10 +1,10 @@
 # Strassen-Matrix
-Strassen’s method is similar to above simple divide and conquer method in the sense that this method also divides matrices to sub-matrices of size N/2 x N/2, but in Strassen’s method, the four sub-matrices of result are calculated using following formulae.
+Strassen’s method is similar to above simpe divide and conquer method in the sense that this method also divides matrices to sub-matrices of size N/2 x N/2, but in Strassen’s method, the four sub-matrices of result are calculated using following formula.
 
 The basic idea behind Strassen's algorithm is to split A & B into 8 submatrices and then recursively compute the submatrices of C. This strategy is called Divide and Conquer.
 
 ## Algorithm
-By using following formula you can calculate the below values \
+By using following formula you can calculate the values below \
 M1 := (A+C)×(E+F) \
 M2 := (B+D)×(G+H)\
 M3 := (A−D)×(E+H)\
